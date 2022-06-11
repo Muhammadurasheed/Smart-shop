@@ -1,0 +1,23 @@
+.item-description {
+    position: absolute;
+    width: 250px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: white;
+    top: auto;
+    background-repeat: no-repeat;
+    z-index: 5;
+
+  
+    .detail-content {
+      height: 240px;
+      display: flex;
+      flex-direction: column;
+      overflow: scroll;
+    }
+ 
+  }
+  
